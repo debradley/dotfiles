@@ -1,0 +1,27 @@
+[alias]
+	co = checkout
+	br = branch
+	nlog = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    dlog = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) %C(white)%s%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)'
+	conflicts = diff --name-only --diff-filter=U
+[user]
+	name = Dan Bradley
+	email = dbradley2@wayfair.com
+[core]
+	excludesfile = /Users/db772j/.gitignore_global
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/db772j/.stCommitMsg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
