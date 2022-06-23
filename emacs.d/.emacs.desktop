@@ -1,0 +1,55 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jan 31 14:50:55 2022
+;; Desktop file format version 208
+;; Emacs version 27.2
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (25080 15775 124203 0) (desktop . "208") "db772j@ALT03441" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (cursor-color . "#cccccc") (menu-bar-lines . 0) (vertical-scroll-bars) (foreground-color . "#ffffff") (background-color . "#262626") (border-color . "#2a2a2a") (font . "tty") (height . 34) (width . 140) (modeline . t) (unsplittable) (tab-bar-lines . 0) (frameset--id . "BF70-5C51-D40C-42FE") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 140) (pixel-height . 33) (total-width . 140) (total-height . 33) (normal-height . 1.0) (normal-width . 1.0) (buffer "gitconfig" (selected . t) (hscroll . 0) (fringes 0 0 nil nil) (margins 2) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 931) (start . 1)) (prev-buffers ("docker-compose.yaml" 1 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '(#("zdiff" 0 5 (isearch-case-fold-search t))))
+(setq register-alist nil)
+(setq file-name-history '("/Users/db772j/repos/mep-projects-api/docker-compose.yaml" "/Users/db772j/.emacs.d/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/db772j/dotfiles/git/gitconfig"
+  "gitconfig"
+  'conf-unix-mode
+  '(projectile-mode linum-mode)
+  931
+  '(1 nil)
+  t
+  nil
+  '((buffer-display-time 25080 15747 474170 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/db772j/repos/mep-projects-api/docker-compose.yaml"
+  "docker-compose.yaml"
+  'fundamental-mode
+  '(projectile-mode linum-mode auto-revert-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 25080 15742 892947 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/db772j/dotfiles/emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode projectile-mode linum-mode paredit-mode auto-revert-mode)
+  34
+  '(34 nil)
+  nil
+  nil
+  '((buffer-display-time 25080 15565 702081 943000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (105 34))))
+
